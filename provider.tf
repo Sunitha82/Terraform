@@ -4,7 +4,7 @@ provider  "aws" {
 }
 resource "aws_s3_bucket" "abc" {
    bucket = "sunikans"
-  // acl = "private"
+   acl = "private"
 
    tags = {
      Name = "My s3 bucket"
